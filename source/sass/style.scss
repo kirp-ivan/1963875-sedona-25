@@ -1,14 +1,52 @@
-@use "main-nav.scss";
-@use "intro.scss";
 @use "page-body.scss";
-@use "main-header.scss";
-@use "advantages.scss";
+@use "main-header__logo.scss";
+@use "site-list__item.scss";
+@use "main-nav__list.scss";
+@use "intro__wrapper.scss";
+@use "intro__image.scss";
+@use "intro__subject.scss";
+@use "intro__title.scss";
+@use "intro__text.scss";
+@use "advantages__list.scss";
+@use "advantages__title.scss";
+@use "advantages__number.scss";
+@use "advantages__description.scss";
+@use "advantages__vector.scss";
 @use "additions-list.scss";
-@use "some-list";
-@use "search-hostel";
+@use "additions-item__title.scss";
+@use "additions-item__description.scss";
+@use "advantages-extra__title.scss";
+@use "advantages__item.scss";
+@use "advantages-extra__item.scss";
+@use "search-hotel.scss";
+@use "search-hotel__title.scss";
+@use "search-hotel__text.scss";
+@use "search-hotel__link.scss";
 @use "main-footer.scss";
-@use "social.scss";
-@use "copyright.scss";
+@use "main-footer__text.scss";
+@use "social__list.scss";
+@use "photos__header.scss";
+@use "photos__image.scss";
+@use "photos__title.scss";
+@use "photos__text.scss";
+@use "photo__list.scss";
+@use "photo__item.scss";
+@use "photo__title.scss";
+@use "photo__number-of-likes.scss";
+@use "video.scss";
+@use "video__title.scss";
+@use "video__text.scss";
+@use "review.scss";
+@use "review__title.scss";
+@use "review__text.scss";
+@use "filters.scss";
+@use "filters__legend.scss";
+@use "filters__fieldset.scss";
+@use "filters__list.scss";
+@use "filters__label.scss";
+@use "filters__input.scss";
+@use "filters__button.scss";
+
 
 @font-face {
 	font-family: "PT Sans";
@@ -28,7 +66,7 @@
 
 body {
   font-family: "PT Sans", Arial, sans-serif;
-  text-transform: uppercase;
+
   color: #000000;
   background-color: #E7E5E5;
   margin: 0;
@@ -44,4 +82,3 @@ body {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-

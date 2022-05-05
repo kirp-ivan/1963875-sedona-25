@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="page-body">
     <header class="main-header">
       <a class="main-header__logo" href="index.html" aria-label="Ссылка на главную страницу">
         <img src="img/logo-header-sedona.svg" width="185" height="96" alt="Логотип Седона">
@@ -42,9 +43,9 @@
         <p class="review__text">Помогите нашим отелям стать лучше! <br> оставьте отзыв о них, а также о <br> посещенных вами <br> достопримечательностях </p>
         <form class="filters" action="https://echo.htmlacademy.ru" method="get">
           <fieldset class="filters__fieldset">
-            <legend class="filters__fieldset-title">Представьтесь:</legend>
-            <ul class="filters-list">
-              <li class="filters-item">
+            <legend class="filters__legend">Представьтесь:</legend>
+            <ul class="filters__list">
+              <li class="filters__item">
                 <label class="filters__label">Имя*:</label>
                 <input class="filters__input" type="text" id="name" name="name" placeholder="Пётр">
               </li>
@@ -59,9 +60,9 @@
             </ul>
           </fieldset>
           <fieldset class="filters__fieldset">
-            <legend class="filters__fieldset-title">Контактная информация:</legend>
-            <ul class="filters-list">
-              <li class="filters-item">
+            <legend class="filters__legend">Контактная информация:</legend>
+            <ul class="filters__list">
+              <li class="filters__item">
                 <label class="filters__label">Контактный телефон*:</label>
                 <input class="filters__input" type="tel" id="telephone" name="telephone" placeholder="Введите телефон">
               </li>
@@ -72,9 +73,9 @@
             </ul>
           </fieldset>
           <fieldset class="filters__fieldset">
-            <legend class="filters__fieldset-title">Ваше общее впечатление:</legend>
-            <ul class="filters-list">
-              <li class="filters-item">
+            <legend class="filters__legend">Ваше общее впечатление:</legend>
+            <ul class="filters__list">
+              <li class="filters__item">
                 <label class="filters__label">
                   <input class="filters__input" type="radio" name="impression" value="positively">
                   <span class="filters__text">Скорее положительное</span>
@@ -94,9 +95,9 @@
             </ul>
           </fieldset>
           <fieldset class="filters__fieldset">
-            <legend class="filters__fieldset-title">Посещенные <br> достопримечательности: </legend>
-            <ul class="filters-list">
-              <li class="filters-item">
+            <legend class="filters__legend">Посещенные <br> достопримечательности: </legend>
+            <ul class="filters__list">
+              <li class="filters__item">
                 <label class="filters__label">
                   <input class="filters__input" type="checkbox" name="devil-bridge">
                   <span class="filters__text">Мост Дьявола</span>
@@ -123,8 +124,8 @@
             </ul>
           </fieldset>
           <fieldset class="filters__fieldset">
-            <legend class="filters__fieldset-title">Опишите свои эмоции:</legend>
-            <div class="textbox">
+            <legend class="filters__legend">Опишите свои эмоции:</legend>
+            <div class="filters__textbox">
               <textarea class="textbox__text" id="text" name="text" placeholder="Опишите подробно все свои восторги"></textarea>
             </div>
           </fieldset>
@@ -165,6 +166,7 @@
       <p class="modal-success__title">Ваш отзыв отправлен!</p>
       <p class="modal-success__text">Спасибо за ваше участие, ваш <br> отзыв уже поступил к нам. <br>В ближайшее время мы <br> опубликуем его на сайте. </p>
       <button class="modal-success__button" type="button">Закрыть окно</button>
+    </div>
     </div>
   </body>
 </html>
