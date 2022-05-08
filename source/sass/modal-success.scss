@@ -1,0 +1,43 @@
+.modal-success {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 45px 20px 20px 20px;
+}
+
+.modal-success__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.modal-success__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.modal-success__button {
+  font-family: "PT Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #81B3D2;
+  width: 280px;
+  padding-top: 18px;
+  padding-bottom: 14px;
+  border: none;
+  text-transform: uppercase ;
+}

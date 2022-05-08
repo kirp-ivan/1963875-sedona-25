@@ -1,0 +1,38 @@
+.photos__header {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/jpg/back-mobile.jpg);
+  background-repeat: no-repeat;
+  height: 158px;
+  text-align: center;
+}
+
+.photos__image {
+  margin: 0;
+  padding: 0;
+  margin-top: 52px;
+  margin-bottom: 67px;
+}
+
+.photos__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 33px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.photos__text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}

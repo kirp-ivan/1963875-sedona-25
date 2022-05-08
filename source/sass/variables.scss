@@ -1,0 +1,68 @@
+$fancy-color: #000000;
+$text-color: #FFFFFF;
+$description-color: #333333;
+
+
+body {
+  color: $fancy-color;
+}
+
+.advantages__item {
+  color: $text-color;
+}
+
+.additions-item {
+  color: $fancy-color;
+}
+
+.additions-item__description {
+  color: $description-color;
+}
+
+.search-hotel__text {
+  color: $description-color;
+}
+
+.search-hotel__link {
+  color: $text-color;
+}
+
+.site-list__link {
+  color: $text-color;
+}
+
+.photos__text {
+  color: $description-color;
+}
+
+.photo__author {
+  color: $description-color;
+}
+
+.video__text {
+  color: $description-color;
+}
+
+.review__text {
+  color: $description-color;
+}
+
+.filters__label {
+  color: $description-color;
+}
+
+.filters__text {
+  color: $fancy-color;
+}
+
+.filters__button {
+  color: $text-color;
+}
+
+.modal-failure__button {
+  color: $text-color;
+}
+
+.modal-success__button {
+  color: $text-color;
+}
