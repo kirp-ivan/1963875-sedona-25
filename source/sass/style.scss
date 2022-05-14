@@ -1,3 +1,4 @@
+@use "variables.scss";
 @use "page-body.scss";
 @use "main-header.scss";
 @use "site-list.scss";
@@ -13,27 +14,12 @@
 @use "video.scss";
 @use "review.scss";
 @use "filters.scss";
-@use "variables.scss";
 @use "modal-failure.scss";
 @use "modal-success.scss";
-
-
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/ptsans.woff") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/ptsansbold.woff2") format("woff2");
-  font-display: swap;
-}
+@use "additions-item.scss";
+@use "textbox.scss";
+@use "social.scss";
+@use "fonts.scss";
 
 body {
   font-family: "PT Sans", Arial, sans-serif;

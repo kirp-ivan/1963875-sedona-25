@@ -42,12 +42,13 @@
   margin-right: 22px;
 }
 
-.advantages__item--modifier {
+.advantages__item--theme-advantages {
   margin: 0;
   padding: 0;
   padding-left: 32px;
   padding-right: 32px;
   background-color: #EEEEEE;
+
   .advantages__title {
     margin: 0;
     padding: 0;
@@ -55,12 +56,14 @@
     padding-top: 26px;
     color: #000000;
   }
+
   .advantages__number {
     margin: 0;
     padding: 0;
     color: #333333;
     margin-bottom: 17px;
   }
+
   .advantages__description {
     margin: 0;
     padding: 0;
