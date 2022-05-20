@@ -1,5 +1,27 @@
+.main-header{
+  display: flex;
+  flex-direction: column;
+}
+
 .main-header__logo {
   margin: 0;
   padding: 0;
   margin-left: 67px;
+  height: 96px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-header__logo {
+    margin: 0;
+    padding: 0;
+    height: 96px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-header__logo {
+    margin: 0;
+    padding: 0;
+    height: 96px;
+  }
 }
