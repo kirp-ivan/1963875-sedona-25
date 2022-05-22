@@ -38,3 +38,23 @@
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .intro__subject {
+    margin: 0;
+    padding: 0;
+    padding: 47px 124px 56px 124px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro__subject {
+    margin: 0;
+    padding: 0;
+    padding: 59px 358px 45px 358px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
