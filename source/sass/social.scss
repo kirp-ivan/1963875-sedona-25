@@ -6,3 +6,21 @@
   list-style-type: none;
   margin-bottom: 47px;
 }
+
+@media (min-width: $tablet-width) {
+  .main-footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

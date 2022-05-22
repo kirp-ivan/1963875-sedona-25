@@ -38,17 +38,3 @@
   margin: 0;
   padding: 0;
 }
-
-@media (min-width: $tablet-width) {
-  .main-nav__wrapper {
-    width: 768px;
-    padding: 48px 124px 56px 124px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .main-nav__wrapper {
-    width: 1200px;
-    padding: 59px 358px 45px 358px;
-  }
-}
